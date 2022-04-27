@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.presentation.AddPackageController">
+   <Label layoutX="62.0" layoutY="33.0" text="Package ID">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <Label layoutX="62.0" layoutY="98.0" text="Package price">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <Label layoutX="275.0" layoutY="33.0" text="Package name">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <Label layoutX="277.0" layoutY="98.0" text="Package period">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <Label layoutX="276.0" layoutY="245.0" text="Package extra details">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <Label layoutX="62.0" layoutY="171.0" text="Package available places">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <Label layoutX="66.0" layoutY="245.0" text="Package status">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <Button layoutX="251.0" layoutY="405.0" mnemonicParsing="false" onAction="#switchToPrimary" text="Back"/>
+   <TextField fx:id="idTextField" layoutX="62.0" layoutY="60.0" promptText="ID"/>
+   <TextField fx:id="priceTextField" layoutX="62.0" layoutY="125.0" promptText="Price"/>
+   <TextField fx:id="extraDetailsTextField" layoutX="277.0" layoutY="276.0" prefHeight="31.0" prefWidth="187.0"
+              promptText="Extra details"/>
+   <TextField fx:id="availablePlacesTextField" layoutX="62.0" layoutY="202.0" promptText="Available places"/>
+   <TextField fx:id="nameTextField" layoutX="275.0" layoutY="60.0" promptText="Name"/>
+   <TextField fx:id="periodTextField" layoutX="277.0" layoutY="125.0" promptText="Period"/>
+   <TextField fx:id="statusTextField" layoutX="62.0" layoutY="276.0" promptText="Status"/>
+   <Label layoutX="278.0" layoutY="171.0" text="Package Destination">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Label>
+   <ChoiceBox fx:id="destinationChoiceBox" layoutX="277.0" layoutY="202.0" prefHeight="31.0" prefWidth="187.0"/>
+   <Button layoutX="278.0" layoutY="320.0" mnemonicParsing="false" onAction="#addPackage" prefHeight="63.0"
+           prefWidth="89.0" text="Add Package" textAlignment="CENTER" wrapText="true"/>
+</AnchorPane>

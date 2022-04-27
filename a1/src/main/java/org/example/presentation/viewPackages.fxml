@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.presentation.ViewPackagesController">
+   <children>
+      <ScrollPane layoutX="14.0" layoutY="14.0" prefHeight="362.0" prefWidth="522.0">
+         <content>
+            <TableView fx:id="tableView" prefHeight="357.0" prefWidth="518.0" />
+         </content>
+      </ScrollPane>
+      <Button layoutX="250.0" layoutY="392.0" mnemonicParsing="false" onAction="#switchToPrimary" text="Back" />
+   </children>
+</AnchorPane>

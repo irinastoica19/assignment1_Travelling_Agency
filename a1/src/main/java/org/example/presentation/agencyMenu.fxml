@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.presentation.AgencyController">
+   <Button fx:id="secondaryButton" layoutX="250.0" layoutY="390.0" onAction="#switchToPrimary" text="Back"/>
+   <Button layoutX="173.0" layoutY="102.0" mnemonicParsing="false" onAction="#switchToAddDestination" prefHeight="31.0"
+           prefWidth="205.0" text="Add Vacation Destination"/>
+   <Button layoutX="173.0" layoutY="200.0" mnemonicParsing="false" onAction="#switchToAddPackage" prefHeight="31.0"
+           prefWidth="205.0" text="Add Vacation Package"/>
+   <Button layoutX="173.0" layoutY="299.0" mnemonicParsing="false" onAction="#switchToEditPackage" prefHeight="31.0"
+           prefWidth="205.0" text="Edit Vacation Package"/>
+   <Button layoutX="173.0" layoutY="250.0" mnemonicParsing="false" onAction="#switchToDeletePackage" prefHeight="31.0"
+           prefWidth="205.0" text="Delete Vacation Package"/>
+   <Button layoutX="173.0" layoutY="151.0" mnemonicParsing="false" onAction="#switchToDeleteDestination"
+           text="Delete Vacation Destination"/>
+   <Button layoutX="173.0" layoutY="348.0" mnemonicParsing="false" onAction="#switchToViewPackages" prefHeight="31.0"
+           prefWidth="205.0" text="View Vacation Packages"/>
+</AnchorPane>

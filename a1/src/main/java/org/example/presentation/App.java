@@ -22,10 +22,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         stage.setTitle("Order Management Application");
-        scene = new Scene(loadFXML("view"), 850, 700);
-        VacationPackage v = new VacationPackage(1, "Maldive Package 1", 2000, 4, "Beautiful vacation at the beach", 40, 1, 1);
-        VacationPackageService repository = new VacationPackageService();
-        repository.addVacationPackage(v);
+        scene = new Scene(loadFXML("view"), 550, 450);
         stage.setScene(scene);
         stage.show();
     }
